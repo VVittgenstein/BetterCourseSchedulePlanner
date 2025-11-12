@@ -1,0 +1,616 @@
+{
+  "timestamp": "2025-11-12T14:08:12.688Z",
+  "courseFields": [
+    {
+      "field": "subject",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "courseNumber",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "title",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "expandedTitle",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "courseDescription",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "credits",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "preReqNotes",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "campusCode",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "sections",
+      "type": "object",
+      "isArray": true
+    },
+    {
+      "field": "synopsisUrl",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "coreCodes",
+      "type": "object",
+      "isArray": true
+    },
+    {
+      "field": "offeringUnitCode",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "offeringUnitTitle",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "subjectGroupNotes",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "subjectNotes",
+      "type": "object",
+      "isArray": true
+    },
+    {
+      "field": "openSections",
+      "type": "number",
+      "isArray": false
+    }
+  ],
+  "sectionFields": [
+    {
+      "field": "number",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "index",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "sectionData",
+      "type": "object",
+      "isArray": false
+    },
+    {
+      "field": "openStatus",
+      "type": "boolean",
+      "isArray": false
+    },
+    {
+      "field": "crossListedSections",
+      "type": "object",
+      "isArray": true
+    },
+    {
+      "field": "examCode",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "specialPermissionRequired",
+      "type": "boolean",
+      "isArray": false
+    },
+    {
+      "field": "comments",
+      "type": "object",
+      "isArray": true
+    },
+    {
+      "field": "printed",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "sessionDatePrintIndicator",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "unitMajor",
+      "type": "string",
+      "isArray": false
+    },
+    {
+      "field": "sessionDates",
+      "type": "object",
+      "isArray": false
+    }
+  ],
+  "sampleCourse": {
+    "subject": "198",
+    "courseNumber": "100",
+    "title": "Computer Science 100",
+    "expandedTitle": "Introduction to Computer Science 100",
+    "courseDescription": "This course covers fundamental concepts in computer science, including theoretical foundations and practical applications.",
+    "credits": "4",
+    "preReqNotes": "01:198:111 or equivalent",
+    "campusCode": "NB",
+    "sections": [
+      {
+        "number": "01",
+        "index": "10000",
+        "sectionData": {
+          "meetingTimes": [
+            {
+              "meetingDay": "M",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            },
+            {
+              "meetingDay": "TH",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Smith, John"
+            }
+          ]
+        },
+        "openStatus": true,
+        "crossListedSections": [
+          {
+            "subject": "540",
+            "courseNumber": "100",
+            "sectionNumber": "01"
+          }
+        ],
+        "examCode": "A",
+        "specialPermissionRequired": false,
+        "comments": [],
+        "printed": "Y",
+        "sessionDatePrintIndicator": "Y",
+        "unitMajor": "Computer Science",
+        "sessionDates": {
+          "session": "1",
+          "sessionStartDate": "09/03/2025",
+          "sessionEndDate": "12/20/2025"
+        }
+      },
+      {
+        "number": "02",
+        "index": "10001",
+        "sectionData": {
+          "meetingTimes": [
+            {
+              "meetingDay": "M",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            },
+            {
+              "meetingDay": "TH",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Smith, John"
+            }
+          ]
+        },
+        "openStatus": true,
+        "crossListedSections": [],
+        "examCode": "A",
+        "specialPermissionRequired": false,
+        "comments": [],
+        "printed": "Y",
+        "sessionDatePrintIndicator": "Y",
+        "unitMajor": "Computer Science",
+        "sessionDates": {
+          "session": "1",
+          "sessionStartDate": "09/03/2025",
+          "sessionEndDate": "12/20/2025"
+        }
+      },
+      {
+        "number": "03",
+        "index": "10002",
+        "sectionData": {
+          "meetingTimes": [
+            {
+              "meetingDay": "M",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            },
+            {
+              "meetingDay": "TH",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Smith, John"
+            }
+          ]
+        },
+        "openStatus": false,
+        "crossListedSections": [],
+        "examCode": "",
+        "specialPermissionRequired": false,
+        "comments": [],
+        "printed": "Y",
+        "sessionDatePrintIndicator": "Y",
+        "unitMajor": "Computer Science",
+        "sessionDates": {
+          "session": "1",
+          "sessionStartDate": "09/03/2025",
+          "sessionEndDate": "12/20/2025"
+        }
+      },
+      {
+        "number": "04",
+        "index": "10003",
+        "sectionData": {
+          "meetingTimes": [
+            {
+              "meetingDay": "M",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            },
+            {
+              "meetingDay": "TH",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Smith, John"
+            }
+          ]
+        },
+        "openStatus": false,
+        "crossListedSections": [],
+        "examCode": "A",
+        "specialPermissionRequired": false,
+        "comments": [],
+        "printed": "Y",
+        "sessionDatePrintIndicator": "Y",
+        "unitMajor": "Computer Science",
+        "sessionDates": {
+          "session": "1",
+          "sessionStartDate": "09/03/2025",
+          "sessionEndDate": "12/20/2025"
+        }
+      },
+      {
+        "number": "05",
+        "index": "10004",
+        "sectionData": {
+          "meetingTimes": [
+            {
+              "meetingDay": "M",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            },
+            {
+              "meetingDay": "TH",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Smith, John"
+            }
+          ]
+        },
+        "openStatus": true,
+        "crossListedSections": [],
+        "examCode": "A",
+        "specialPermissionRequired": false,
+        "comments": [],
+        "printed": "Y",
+        "sessionDatePrintIndicator": "Y",
+        "unitMajor": "Computer Science",
+        "sessionDates": {
+          "session": "1",
+          "sessionStartDate": "09/03/2025",
+          "sessionEndDate": "12/20/2025"
+        }
+      },
+      {
+        "number": "06",
+        "index": "10005",
+        "sectionData": {
+          "meetingTimes": [
+            {
+              "meetingDay": "M",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            },
+            {
+              "meetingDay": "TH",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Smith, John"
+            }
+          ]
+        },
+        "openStatus": false,
+        "crossListedSections": [],
+        "examCode": "A",
+        "specialPermissionRequired": false,
+        "comments": [],
+        "printed": "Y",
+        "sessionDatePrintIndicator": "Y",
+        "unitMajor": "Computer Science",
+        "sessionDates": {
+          "session": "1",
+          "sessionStartDate": "09/03/2025",
+          "sessionEndDate": "12/20/2025"
+        }
+      },
+      {
+        "number": "07",
+        "index": "10006",
+        "sectionData": {
+          "meetingTimes": [
+            {
+              "meetingDay": "M",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            },
+            {
+              "meetingDay": "TH",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Smith, John"
+            }
+          ]
+        },
+        "openStatus": true,
+        "crossListedSections": [],
+        "examCode": "",
+        "specialPermissionRequired": false,
+        "comments": [],
+        "printed": "Y",
+        "sessionDatePrintIndicator": "Y",
+        "unitMajor": "Computer Science",
+        "sessionDates": {
+          "session": "1",
+          "sessionStartDate": "09/03/2025",
+          "sessionEndDate": "12/20/2025"
+        }
+      },
+      {
+        "number": "08",
+        "index": "10007",
+        "sectionData": {
+          "meetingTimes": [
+            {
+              "meetingDay": "M",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            },
+            {
+              "meetingDay": "TH",
+              "startTime": "10:20",
+              "endTime": "11:40",
+              "pmCode": "A",
+              "campusAbbrev": "CAC",
+              "buildingCode": "ARC",
+              "roomNumber": "103",
+              "campusName": "College Avenue",
+              "buildingName": "Arc Building"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Smith, John"
+            }
+          ]
+        },
+        "openStatus": true,
+        "crossListedSections": [],
+        "examCode": "A",
+        "specialPermissionRequired": false,
+        "comments": [],
+        "printed": "Y",
+        "sessionDatePrintIndicator": "Y",
+        "unitMajor": "Computer Science",
+        "sessionDates": {
+          "session": "1",
+          "sessionStartDate": "09/03/2025",
+          "sessionEndDate": "12/20/2025"
+        }
+      }
+    ],
+    "synopsisUrl": "http://www.cs.rutgers.edu/courses/details/198:100",
+    "coreCodes": [
+      {
+        "code": "CCO",
+        "description": "Core Code",
+        "effective": "202109"
+      }
+    ],
+    "offeringUnitCode": "01",
+    "offeringUnitTitle": "School of Arts and Sciences",
+    "subjectGroupNotes": "",
+    "subjectNotes": [],
+    "openSections": 5
+  },
+  "sampleSection": {
+    "number": "01",
+    "index": "10000",
+    "sectionData": {
+      "meetingTimes": [
+        {
+          "meetingDay": "M",
+          "startTime": "10:20",
+          "endTime": "11:40",
+          "pmCode": "A",
+          "campusAbbrev": "CAC",
+          "buildingCode": "ARC",
+          "roomNumber": "103",
+          "campusName": "College Avenue",
+          "buildingName": "Arc Building"
+        },
+        {
+          "meetingDay": "TH",
+          "startTime": "10:20",
+          "endTime": "11:40",
+          "pmCode": "A",
+          "campusAbbrev": "CAC",
+          "buildingCode": "ARC",
+          "roomNumber": "103",
+          "campusName": "College Avenue",
+          "buildingName": "Arc Building"
+        }
+      ],
+      "instructors": [
+        {
+          "name": "Smith, John"
+        }
+      ]
+    },
+    "openStatus": true,
+    "crossListedSections": [
+      {
+        "subject": "540",
+        "courseNumber": "100",
+        "sectionNumber": "01"
+      }
+    ],
+    "examCode": "A",
+    "specialPermissionRequired": false,
+    "comments": [],
+    "printed": "Y",
+    "sessionDatePrintIndicator": "Y",
+    "unitMajor": "Computer Science",
+    "sessionDates": {
+      "session": "1",
+      "sessionStartDate": "09/03/2025",
+      "sessionEndDate": "12/20/2025"
+    }
+  }
+}

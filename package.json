@@ -1,0 +1,18 @@
+{
+  "name": "better-course-schedule-planner",
+  "version": "0.1.0",
+  "description": "Rutgers Course Schedule Planner - SOC API探针与数据工具",
+  "type": "module",
+  "scripts": {
+    "probe": "tsx scripts/soc-probe.ts",
+    "probe:report": "tsx scripts/soc-probe.ts --report"
+  },
+  "keywords": ["rutgers", "course", "schedule", "soc"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}

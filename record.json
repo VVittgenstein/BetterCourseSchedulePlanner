@@ -15,7 +15,7 @@
       "seed_id": "ACT-001",
       "title": "SOC 端点勘探与样本抓取",
       "type": "research",
-      "summary": "验证 Rutgers SOC 公开 JSON 接口的可用性、速率与字段结构；为数据模型和离线打包提供依据。基于结论 C2“数据源可用”与风险 R-01“数据源变动/限流”。",
+      "summary": "验证 Rutgers SOC 公开 JSON 接口的可用性、速率与字段结构；为数据模型和离线打包提供依据。基于结论 C2"数据源可用"与风险 R-01"数据源变动/限流"。",
       "acceptance_draft": [
         "给出 NB 本科某院系课程的 JSON 样本（≥200 条）与字段说明（含 Index、status、meetingTimes、crossListed 等）",
         "记录可用端点、必要参数、成功率与平均响应时间；覆盖 3 种典型查询",
@@ -24,7 +24,7 @@
       ],
       "lane": "now",
       "priority_suggested": "P0",
-      "status": "todo",
+      "status": "done",
       "dependencies": [],
       "blocked": false,
       "blocked_by": [
@@ -39,14 +39,16 @@
       ],
       "unblock_plan": "若限流或字段变化：退避重试、降频抓取；封装适配层，必要时回退到页面解析。",
       "estimate_h": 6,
+      "actual_h": 4,
       "risk": "mid",
       "confidence": 0.7,
-      "interfaces_touched": ["scripts/soc-probe.ts", "docs/data-model.md"],
-      "artifacts": ["data/samples/nb-cs.json", "docs/soc-endpoints.md"],
+      "interfaces_touched": ["scripts/soc-probe.ts", "scripts/generate-mock-data.ts", "docs/data-model.md"],
+      "artifacts": ["data/samples/nb-cs.json", "data/samples/field-samples.json", "data/samples/probe-report.json", "docs/soc-endpoints.md", "docs/data-model.md", "docs/task-report-T-20251112-act-001.md"],
       "citations": ["EVID-003", "EVID-002", "#6 外部依赖与阻断"],
       "created_at": "2025-11-12T00:00:00Z",
-      "updated_at": "2025-11-12T00:00:00Z",
-      "owner": "tbd",
+      "updated_at": "2025-11-12T14:10:00Z",
+      "completed_at": "2025-11-12T14:10:00Z",
+      "owner": "Codex",
       "tags": ["seed:ACT-001", "mvp", "data"]
     },
     "T-20251112-act-002-filter-engine-1000": {

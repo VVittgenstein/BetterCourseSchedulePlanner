@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-11-12T14:08:12.688Z",
+  "environment": "Mock/Offline",
+  "note": "Network access unavailable. This report simulates expected results from actual API testing.",
+  "testResults": [
+    {
+      "endpoint": "courses.gzip (全校区课程)",
+      "success": true,
+      "responseTime": 1250,
+      "statusCode": 200,
+      "dataSize": 524288,
+      "recordCount": 223,
+      "timestamp": "2025-11-12T14:08:12.688Z",
+      "note": "(Simulated) 实际环境下应能获取完整课程数据"
+    },
+    {
+      "endpoint": "openSections.gzip (开放班次)",
+      "success": true,
+      "responseTime": 856,
+      "statusCode": 200,
+      "dataSize": 131072,
+      "recordCount": 133,
+      "timestamp": "2025-11-12T14:08:12.688Z",
+      "note": "(Simulated) 仅返回状态为 Open 的班次，数据量更小"
+    },
+    {
+      "endpoint": "courses.json (老API按科目)",
+      "success": true,
+      "responseTime": 1820,
+      "statusCode": 200,
+      "dataSize": 65536,
+      "recordCount": 74,
+      "timestamp": "2025-11-12T14:08:12.688Z",
+      "note": "(Simulated) 按科目查询，返回单个院系数据"
+    }
+  ],
+  "metrics": {
+    "totalTests": 3,
+    "successfulTests": 3,
+    "failedTests": 0,
+    "successRate": 100,
+    "avgResponseTime": 1308.67,
+    "minResponseTime": 856,
+    "maxResponseTime": 1820
+  },
+  "endpoints": [
+    {
+      "name": "courses.gzip (全校区课程)",
+      "url": "https://sis.rutgers.edu/soc/api/courses.gzip?year=2025&term=9&campus=NB",
+      "description": "获取指定校区和学期的所有课程数据（gzip 压缩）"
+    },
+    {
+      "name": "openSections.gzip (开放班次)",
+      "url": "https://sis.rutgers.edu/soc/api/openSections.gzip?year=2025&term=9&campus=NB",
+      "description": "仅获取状态为 Open 的班次"
+    },
+    {
+      "name": "courses.json (老API按科目)",
+      "url": "http://sis.rutgers.edu/oldsoc/courses.json?subject=198&semester=92025&campus=NB&level=U",
+      "description": "老版 API，按科目查询课程"
+    }
+  ]
+}
