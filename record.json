@@ -331,21 +331,12 @@
           ],
           "lane": "now",
           "priority_suggested": "P0",
-          "status": "todo",
+          "status": "done",
           "dependencies": [
             "T-20251113-soc-api-validation"
           ],
-          "blocked": true,
-          "blocked_by": [
-            {
-              "dep_id": "DEP-001",
-              "name": "Rutgers SOC API（courses.json / openSections）",
-              "type": "api",
-              "status": "unknown",
-              "doc_url": "https://github.com/anxious-engineer/Rutgers-Course-API",
-              "note": "接口结构与速率限制需要先通过 T-20251113-soc-api-validation 实测后，才能确定 schema 设计所需字段。"
-            }
-          ],
+          "blocked": false,
+          "blocked_by": [],
           "unblock_plan": "完成 SOC API 参数验证后，编写一次性脚本抓取 Spring 2026 全量数据并固化为原始快照。",
           "estimate_h": 3,
           "risk": "mid",
@@ -355,8 +346,19 @@
             "data-pipeline"
           ],
           "artifacts": [
-            "data/raw/spring-2026-courses.json",
-            "data/raw/spring-2026-openSections.json",
+            "scripts/fetch_spring_2026_samples.py",
+            "data/raw/spring-2026-NB-courses.json.gz",
+            "data/raw/spring-2026-NB-courses.metadata.json",
+            "data/raw/spring-2026-NB-openSections.json.gz",
+            "data/raw/spring-2026-NB-openSections.metadata.json",
+            "data/raw/spring-2026-NK-courses.json.gz",
+            "data/raw/spring-2026-NK-courses.metadata.json",
+            "data/raw/spring-2026-NK-openSections.json.gz",
+            "data/raw/spring-2026-NK-openSections.metadata.json",
+            "data/raw/spring-2026-CM-courses.json.gz",
+            "data/raw/spring-2026-CM-courses.metadata.json",
+            "data/raw/spring-2026-CM-openSections.json.gz",
+            "data/raw/spring-2026-CM-openSections.metadata.json",
             "docs/db/sample_notes.md"
           ],
           "citations": [
@@ -366,7 +368,7 @@
             "R-20251113-frontend-perf"
           ],
           "created_at": "2025-11-13T00:00:00Z",
-          "updated_at": "2025-11-13T00:00:00Z",
+          "updated_at": "2025-11-15T20:05:00Z",
           "owner": "tbd",
           "tags": [
             "subtask",

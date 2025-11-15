@@ -1,0 +1,27 @@
+{
+  "fetched_at": "2025-11-15T20:00:31.513692+00:00",
+  "year": 2026,
+  "term": 1,
+  "campus": "NB",
+  "endpoint": "courses",
+  "url": "https://sis.rutgers.edu/soc/api/courses.json?year=2026&term=1&campus=NB",
+  "status": 200,
+  "duration_ms": 310,
+  "headers": {
+    "Date": "Sat, 15 Nov 2025 20:00:30 GMT",
+    "Server": "Apache/2.4.56 (Unix) mod_jk/1.2.48",
+    "Set-Cookie": "classes=1156324780.20480.0000; path=/; Httponly; Secure",
+    "Content-Encoding": "gzip",
+    "Cache-Control": "max-age=900",
+    "ETag": "620171575",
+    "Content-Length": "893530",
+    "X-Server-Name": "(null)",
+    "Connection": "close",
+    "Content-Type": "application/json"
+  },
+  "payload_bytes": 20760545,
+  "gz_file_size_bytes": 830562,
+  "sha256": "c230b03cd05c8f69ca6b258154db7bc25b9a4f42a4e0a01a9490bd44f35805ee",
+  "courses_count": 4608,
+  "sections_count": 11680
+}
