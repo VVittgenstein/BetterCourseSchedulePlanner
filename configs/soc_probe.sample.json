@@ -1,0 +1,29 @@
+{
+  "baseUrl": "https://sis.rutgers.edu/soc/api",
+  "endpoint": "courses.json",
+  "outputDir": "data/raw",
+  "logFile": "logs/soc_probe.log",
+  "requestIntervalMs": 250,
+  "timeoutMs": 15000,
+  "queryDefaults": {
+    "level": "U",
+    "semester": "9"
+  },
+  "combinations": [
+    {
+      "term": "2024",
+      "campus": "NB",
+      "subjects": [
+        "198",
+        "640"
+      ]
+    },
+    {
+      "term": "2024",
+      "campus": "NK",
+      "subjects": [
+        "198"
+      ]
+    }
+  ]
+}
