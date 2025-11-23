@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updatedAt": "2025-11-23T06:29:11.450Z",
+  "updatedAt": "2025-11-23T06:29:51.315Z",
   "campuses": {
     "NB": {
       "term": "12024",
       "campus": "NB",
-      "lastPollAt": "2025-11-23T06:29:11.295Z",
+      "lastPollAt": "2025-11-23T06:29:51.279Z",
       "lastSnapshotHash": "2d9f081fa1bec6ac4b254436aae921f16af5b02f",
       "openIndexes": 8494,
       "misses": {}
